@@ -1,3 +1,4 @@
+"use client"
 import React, { useState, useEffect } from "react";
 import { Car, Calendar, Route, DollarSign, Zap, Star, ArrowRight } from "lucide-react";
 
