@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚗 Luxury Car Showcase
 
-## Getting Started
+A modern, responsive **Luxury Car Showcase** built with **Next.js**, **React**, **Tailwind CSS**, and **Three.js**.  
+The app provides a **smooth car gallery experience** with **360° interactive views**, a **price calculator**, and detailed car information.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 🖼️ Picture Scroll (Image Carousel)
+- Implemented with **Swiper.js**.
+- Smooth navigation with next/previous arrows.
+- Supports pagination for quick selection.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 🔄 360° View Button
+- Each car card includes a **“View in 360°”** button.
+- Clicking it opens an **interactive 3D car model** powered by **Three.js + GLTFLoader + OrbitControls**.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 💰 Price Calculator
+- A **form-based calculator** for event pricing.
+- Computes cost based on:
+  1. **Number of Invites**
+  2. **Duration of Event**
+- Displays the **calculated price** clearly on the page.
 
-## Learn More
+### 📋 Car Overview Section
+Showcases car details with attractive UI cards:
+- **Model** (e.g., Tesla Model S)
+- **Year** (e.g., 2023)
+- **Mileage** (e.g., 15,000 km)
+- **Price** (e.g., $85,000)
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Framework**: Next.js (React 18)
+- **Styling**: Tailwind CSS
+- **3D Rendering**: Three.js (GLTFLoader + OrbitControls)
+- **Carousel**: Swiper.js
+- **Icons**: Lucide React
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
