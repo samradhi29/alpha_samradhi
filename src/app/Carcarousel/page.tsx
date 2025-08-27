@@ -7,7 +7,7 @@ import { Navigation, Pagination } from "swiper/modules";
 import * as THREE from "three";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
-import { Sparkles, Car, Info } from "lucide-react";
+import { Sparkles, Car, Info, ArrowLeft } from "lucide-react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -248,10 +248,19 @@ export default function CarShowcase() {
                 </SwiperSlide>
               </Swiper>
             ) : (
-              <div
-                id="three-container"
-                className="w-full h-[500px] mt-6 rounded-xl border shadow-inner bg-gray-100"
-              ></div>
+              <div className="relative">
+                <div
+                  id="three-container"
+                  className="w-full h-[500px] mt-6 rounded-xl border shadow-inner bg-gray-100"
+                ></div>
+                <button
+                  onClick={() => setShow3D(false)}
+                  className="absolute top-4 left-4 px-4 py-2 bg-gradient-to-r from-purple-600 to-blue-600 text-white font-semibold rounded-xl shadow-lg hover:from-purple-700 hover:to-blue-700 transform hover:scale-105 transition-all duration-300 flex items-center gap-2"
+                >
+                  <ArrowLeft className="w-4 h-4" />
+                  Back to Gallery
+                </button>
+              </div>
             )}
           </section>
 
