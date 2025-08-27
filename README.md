@@ -1,11 +1,11 @@
-# 🚗 Luxury Car Showcase
+ 🚗 Luxury Car Showcase
 
 A modern, responsive **Luxury Car Showcase** built with **Next.js**, **React**, **Tailwind CSS**, and **Three.js**.  
 The app provides a **smooth car gallery experience** with **360° interactive views**, a **price calculator**, and detailed car information.
 
 ---
 
-## ✨ Features
+ ✨ Features
 
 ### 🖼️ Picture Scroll (Image Carousel)
 - Implemented with **Swiper.js**.
@@ -16,7 +16,7 @@ The app provides a **smooth car gallery experience** with **360° interactive vi
 - Each car card includes a **“View in 360°”** button.
 - Clicking it opens an **interactive 3D car model** powered by **Three.js + GLTFLoader + OrbitControls**.
 
-### 💰 Price Calculator
+💰 Price Calculator
 - A **form-based calculator** for event pricing.
 - Computes cost based on:
   1. **Number of Invites**
